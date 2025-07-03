@@ -63,15 +63,17 @@ predictive-dashboard/
 │   ├── fetch_data.py      # Data acquisition scripts
 │   ├── process_data.py    # Data cleaning and preprocessing
 │   └── update_data.py     # Data refresh utilities
-└── utils/
-    └── config.py          # Configuration settings
+|── utils/
+|   └── config.py          # Configuration settings
+|
+└── requirements.txt
 ```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 ```bash
-pip install streamlit pandas plotly numpy prophet
+pip install -r requirements.txt
 ```
 
 ### Installation
