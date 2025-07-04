@@ -1,3 +1,9 @@
+import sys
+import os
+
+# Add the parent directory of 'scripts' to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from scripts.fetch_data import fetch_data
 
 def update_all():
